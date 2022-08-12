@@ -185,7 +185,7 @@ function togpx(geojson, options) {
         console.log("warning: unsupported geometry type: " + f.geometry.type);
     }
   });
-  gpx_str = JXON.stringify(gpx);
+  var gpx_str = JXON.stringify(gpx);
   return gpx_str;
 }
 
